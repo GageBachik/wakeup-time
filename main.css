@@ -1,0 +1,19 @@
+.container{
+	margin: 0 auto;
+	max-width: 640px;
+	text-align: center;
+}
+
+.outer-shell{
+	position: relative;
+	background-color: gray;
+	width: 500px;
+	height: 500px;
+}
+
+.inner-shell{
+	position: absolute;
+	background-color: lightgray;
+	width: 400px;
+	height: 400px;
+}

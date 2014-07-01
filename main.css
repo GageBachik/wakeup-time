@@ -35,8 +35,8 @@
 .am-pm{
 	margin: 0;
 	display: inline-block;
-	position: relative;
-	right: 200px;
+	position: absolute;
+	right: 425px;
 	top: 50px;
 	color: white;
 	line-height: 50px;
@@ -82,5 +82,18 @@
 	opacity: .75;
 }
 
+.snooze{
+	float: right;
+	margin: 0;
+	margin-right: 20px;
+	height: 10px;
+	width: 20px;
+	background-color: black;
+	position: relative;
+	top: -35px;
+	left: -15px;
+	border-radius: 8px;
+	z-index: -1;
+}
 
 

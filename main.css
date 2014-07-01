@@ -24,10 +24,63 @@
 
 .clock-screen{
 	position: absolute;
-	top: 10%;
-	left: 10%;
+	top: 15%;
+	left: 16%;
 	background-color: darkred;
-	width: 380px;
-	height: 190px;
+	width: 340px;
+	height: 100px;
 	border-radius: 2px;
 }
+
+.am-pm{
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	right: 200px;
+	top: 50px;
+	color: white;
+	line-height: 50px;
+}
+
+.inactive{
+	color: gray;
+	opacity: 0.4;
+}
+
+.bottom-am-label{
+	opacity: .8;
+	margin: 0;
+	display: inline-block;
+	position: absolute;
+	right: 90px;
+	top: 135px;
+	color: white;
+	line-height: 50px;
+	letter-spacing: 3px;
+}
+
+.bottom-fm-label{
+	opacity: .8;
+	margin: 0;
+	display: inline-block;
+	position: absolute;
+	right: 89px;
+	top: 160px;
+	color: white;
+	line-height: 50px;
+	letter-spacing: 3px;
+}
+
+.clock-text{
+	font-size: 94px;
+	display: inline-block;
+	position: absolute;
+	right: 100px;
+	top: -54px;
+	font-family: 'Wallpoet', cursive;
+	color: red;
+	opacity: .75;
+}
+
+
+
